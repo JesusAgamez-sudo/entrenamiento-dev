@@ -62,4 +62,38 @@ console.log("");
 // ============================================
 // PARTE 4: ANIDANDO CONDICIONALES (if dentro de if)
 // ============================================
+console.log("🔷 Parte 4: ANIDANDO CONDICIONALES");
+console.log("-".repeat(40));
 
+let edad = 18;
+let tieneDocumento = true;
+console.log('📍Edad: ${edad} años');
+console.log('📍Tiene documento: ${tieneDocumento}');
+
+if (edad >= 18) {
+    if (tieneDocumento) {
+        console.log("👍 Puedes entrar al evento");
+        console.log(" disfruta la noche 🎉");
+    } else {
+        console.log("tienes edad pero no tienes documento");
+        console.log(" necesitas tu identificación");
+    }
+} else {
+    console.log("eres menor de edad");
+    console.log("   no puedes entrar al evento");
+}
+console.log("");
+
+// ============================================
+// PARTE 5: OPERADOR TERNARIO (if en una línea)
+// ============================================
+
+console.log("🔷 Parte 5: OPERADOR TERNARIO");
+console.log("-".repeat(40));
+
+let esMadre = true;
+let esHermano = false;
+
+if (esMadre && esHermano) {
+    console.log("👨‍👩‍👦 Eres un caso de madre y hermano");
+}
